@@ -13,6 +13,7 @@ public class CellPhone {
      this.carrier =" ";
      this.pNumber =" ";
      this.owner =" ";
+
  }
 
     public int getsNumber() {
@@ -54,4 +55,21 @@ public class CellPhone {
     public void setOwner(String owner) {
         this.owner = owner;
     }
+
+    public void dial(String pNumber){
+        System.out.println( owner + "'s phone is calling" + pNumber
+                );
+    }
+
+    @Override
+    public String toString() {
+        return "CellPhone{" +
+                "owner='" + owner + '\'' +
+                ", pNumber='" + pNumber + '\'' +
+                ", carrier='" + carrier + '\'' +
+                ", model='" + model + '\'' +
+                ", sNumber=" + sNumber +
+                '}';
+    }
 }
+

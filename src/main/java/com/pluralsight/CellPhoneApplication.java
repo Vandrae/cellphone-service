@@ -29,6 +29,9 @@ public class CellPhoneApplication {
         String owner = input.nextLine();
         thePhone.setOwner(owner);
 
+        System.out.println(thePhone.toString());
+
+
 
 
 
