@@ -3,7 +3,7 @@ package com.pluralsight;
 public class CellPhone {
  private int sNumber;
  private String model;
- private String  carrier ;
+ private String carrier ;
  private String pNumber ;
  private String owner;
 
@@ -57,10 +57,10 @@ public class CellPhone {
     }
 
     public void dial(String pNumber){
-        System.out.println( owner + "'s phone is calling" + pNumber
+        System.out.println( owner + "'s phone is calling " + pNumber
                 );
     }
-
+    //i dont know what this means gotta be honest
     @Override
     public String toString() {
         return "CellPhone{" +
@@ -72,4 +72,6 @@ public class CellPhone {
                 '}';
     }
 }
+
+
 
